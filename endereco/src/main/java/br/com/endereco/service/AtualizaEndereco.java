@@ -1,14 +1,13 @@
 package br.com.endereco.service;
 
-import java.util.Optional;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import br.com.endereco.db.model.Endereco;
-import br.com.endereco.exception.EnderecoException;
 import br.com.endereco.repository.EnderecoRepository;
 
+@Service
 public class AtualizaEndereco {
 	
 	@Autowired
